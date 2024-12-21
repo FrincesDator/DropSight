@@ -1,0 +1,192 @@
+/* 
+USED IN:
+1. Home - Daily Metrics
+2. Metrics - Title
+*/
+.home-page .heading1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 20px; 
+    text-align: center;
+  }
+  
+  @media (min-width: 1200px) {
+    .home-page .heading1 {
+      font-size: 30px; 
+    }
+  }
+
+  .home-page .timestamp-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px; 
+    text-align: center;
+  }
+  
+  @media (min-width: 1200px) {
+    .home-page .timestamp-text {
+      font-size: 15px; 
+    }
+  }
+
+/* 
+USED IN:
+1. Home - Card Title
+*/
+.home-page .card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; 
+    font-size: 13px; 
+  }
+  
+  @media (min-width: 1200px) {
+    .home-page .card-title {
+      font-size: 20px;
+    }
+  }
+
+/* 
+USED IN:
+1. Home - Card SubHeader
+*/
+.home-page .card-subheader {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px; 
+  }
+  
+  @media (min-width: 1200px) {
+    .home-page .card-subheader {
+      font-size: 16px;
+    }
+  }
+
+  
+/* 
+USED IN:
+1. Home - Link to Metrics
+*/
+.home-page .simple-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #007bff;
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  @media (min-width: 1200px) {
+    .home-page .simple-text {
+      font-size: 16px;
+    }
+  }
+
+/* 
+USED IN:
+1. Metrics - Subtitle
+*/
+.home-page .simple-text2 {
+  font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px; 
+  text-align: center;
+  margin-bottom: 5px; 
+}
+
+@media (min-width: 1200px) {
+  .home-page .simple-text2 {
+    font-size: 18px; 
+    }
+  }
+
+
+
+/* 
+USED IN:
+1. Metrics - Monitoring Form TEXTFIELD
+*/
+.home-page .heading3 {
+  font-family: 'Roboto', sans-serif;
+    color: #a1a5b0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: -1.5px;
+  }
+  
+  
+  @media (min-width: 1280px) { 
+    .home-page .heading3 {
+      font-size: 16px;
+    }
+  }
+
+/* 
+USED IN:
+1. Metrics - Monitoring Form TEXTFIELD INSIDE
+*/
+.home-page .txtfield-normal {
+    font-family: 'Roboto', sans-serif;
+    color: #a1a5b0;
+    font-weight: 600;
+    font-size: 11px;
+  }
+  
+  
+  @media (min-width: 1280px) { 
+    .home-page .txtfield-normal {
+      font-size: 16px;
+    }
+  }
+
+  .home-page .textbox-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px; 
+  }
+  
+  
+  @media (min-width: 1200px) {
+    .home-page .textbox-font {
+      font-size: 17px; 
+    }
+  } 
+
+  .recharts-tooltip-wrapper {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+  }
+  
+  .recharts-tooltip-label {
+    color: black; 
+  }
+  
+
+  .home-page .home-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 16px 32px;
+    width: 100%;
+    max-width: 250px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid #EBECEF;
+    box-shadow: none;
+    margin-top: 16px;
+    transition: background-color 0.6s, color 0.6s, box-shadow 0.6s; 
+}
+
+.home-page .home-button:hover {
+    background-color: var(--primary-color-hover);
+    color: var(--text-color-hover); 
+    border-color: #EBECEF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1200px) {
+    .home-page .home-button {
+        font-size: 18px;
+        max-width: 300px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,182 @@
+.terms-link {
+    color: white; /* Make the text white */
+    text-decoration: underline; /* Optional: Add an underline for better visibility */
+}
+ 
+.terms-link:hover {
+    color: #ccc; /* Optional: Change color on hover for better user feedback */
+}
+ 
+/* General container styles */
+.terms-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border-left: 200px solid transparent; /* Left border */
+    border-right: 200px solid transparent; /* Right border */
+}
+ 
+.mobile-terms {
+    padding: 10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    font-size: 14px; /* Adjust base font size for mobile */
+}
+ 
+.desktop-terms {
+    padding: 40px;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    font-size: 16px; /* Adjust base font size for desktop */
+}
+ 
+/* Main title */
+.terms-container h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+ 
+.mobile-terms h1 {
+    font-size: 22px; /* Smaller font size for mobile */
+}
+ 
+.desktop-terms h1 {
+    font-size: 32px; /* Larger font size for desktop */
+}
+ 
+/* Last updated date */
+.contact-info {
+    color: rgb(89, 89, 89);
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+ 
+.mobile-terms .contact-info {
+    font-size: 12px; /* Smaller font for mobile */
+}
+ 
+.desktop-terms .contact-info {
+    font-size: 16px; /* Larger font for desktop */
+}
+ 
+/* Section title */
+.section-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ 
+.mobile-terms .section-title {
+    font-size: 16px; /* Smaller font size for mobile */
+}
+ 
+.desktop-terms .section-title {
+    font-size: 24px; /* Larger font size for desktop */
+}
+ 
+/* Subsection title */
+.sub-section-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+ 
+.mobile-terms .sub-section-title {
+    font-size: 14px; /* Smaller font size for mobile */
+}
+ 
+.desktop-terms .sub-section-title {
+    font-size: 20px; /* Larger font size for desktop */
+}
+ 
+/* Paragraph text */
+.paragraph {
+    color: rgb(89, 89, 89);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+ 
+.mobile-terms .paragraph {
+    line-height: 1.4; /* Adjust line height for mobile */
+}
+ 
+.desktop-terms .paragraph {
+    line-height: 1.8; /* Adjust line height for desktop */
+}
+ 
+/* Links */
+.terms-link2 {
+    text-decoration: none;
+    font-size: 14px;
+    color: blue; /* Update the color to match your design preferences */
+}
+ 
+.terms-link2:hover {
+    text-decoration: underline;
+}
+ 
+/* Divider */
+.divider {
+    margin: 40px 0;
+}
+ 
+.mobile-terms .divider {
+    margin: 20px 0; /* Smaller margin for mobile */
+}
+ 
+.desktop-terms .divider {
+    margin: 50px 0; /* Larger margin for desktop */
+}
+ 
+/* List item */
+.terms-container ul li {
+    color: rgb(89, 89, 89);
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+ 
+/* Back button styles */
+.back-button {
+    color: #757575; /* Text color */
+    background-color: transparent; /* Transparent background */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 10px 15px; /* Padding for a better look */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center content vertically */
+    margin-left: -20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+ 
+.mobile-terms .back-button {
+    font-size: 12px; /* Smaller font size for mobile */
+}
+ 
+.desktop-terms .back-button {
+    font-size: 16px; /* Larger font size for desktop */
+}
+ 
+.back-button img {
+    width: 24px; /* Default SVG width */
+    height: 24px; /* Default SVG height */
+    margin-right: 8px; /* Spacing between the icon and text */
+}
+ 
+.mobile-terms .back-button img {
+    width: 20px; /* Smaller icon for mobile */
+    height: 20px;
+}
+ 
+.desktop-terms .back-button img {
+    width: 30px; /* Larger icon for desktop */
+    height: 30px;
+}
+ 
+ 
+.terms-privacy-section {
+    margin-bottom: 10px; /* Add bottom margin */
+    margin-top: 15px;
+}
