@@ -1,0 +1,36 @@
+.notification-page .heading1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px; 
+  text-align: left;
+  margin-bottom: 16px; 
+  color: #000000
+}
+
+@media (min-width: 1200px) {
+  .notification-page .heading1 {
+    font-size: 30px; 
+  }
+}
+
+.notification-page .notification-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column; /* Ensure cards stack vertically */
+}
+
+.notification-page .notification-card {
+  height: 100px; /* Set a fixed height */
+  width: 800px; /* Set a fixed width */
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .notification-page .notification-card {
+    width: 90%; /* Make cards responsive on smaller screens */
+  }
+}

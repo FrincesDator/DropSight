@@ -1,0 +1,107 @@
+.admin-container { 
+    text-align: center; 
+    margin: 22px; 
+    font-family: 'Roboto', sans-serif; 
+    height: 400;
+    width: 100%;
+    flex-direction: column; 
+    
+  }
+  
+  .admin-container .header {
+    font-weight: 800;
+    font-size: 20px; 
+    margin-bottom: 16px;
+  }
+  
+  @media (min-width: 1200px) {
+    .admin-container .header {
+      font-size: 30px; 
+    }
+  }
+  
+  .admin-container .subheader {
+    font-weight: 600;
+    font-size: 18px; 
+    margin-bottom: 8px;
+  }
+  
+  @media (min-width: 1200px) {
+    .admin-container .subheader {
+      font-size: 20px; 
+    }
+  }
+  
+  .admin-container .user-info {
+    color: #a1a5b0;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: -10px;
+  }
+  
+  @media (min-width: 1280px) { 
+    .admin-container .user-info {
+      font-size: 18px; 
+    }
+  }
+  
+  .admin-container .text {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  @media (min-width: 1200px) {
+    .admin-container .text {
+      font-size: 16px;
+    }
+  }
+  
+  .admin-container .input-field {
+    font-weight: 500;
+    font-size: 15px; 
+  }
+  
+  @media (min-width: 1200px) {
+    .admin-container .input-field {
+      font-size: 17px; 
+    }
+  }
+  
+  .admin-container .button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 32px;
+    width: 100%;
+    max-width: 2500px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 1px solid #EBECEF;
+    box-shadow: none;
+    margin-top: 2px;
+    transition: background-color 0.6s, color 0.6s, box-shadow 0.6s; 
+  }
+  
+  .admin-container .button:hover {
+    background-color: var(--primary-color-hover);
+    color: var(--text-color-hover); 
+    border-color: #EBECEF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-container .table-header {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .admin-container .table-cell {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 1200px) {
+    .admin-container .table-cell {
+      font-size: 16px;
+    }
+  }
+  

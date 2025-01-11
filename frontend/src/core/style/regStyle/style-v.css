@@ -1,0 +1,324 @@
+/* Existing styles */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.app-barv {
+  background-color: white;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  box-sizing: border-box; /* Ensure padding is included in height calculation */
+}
+
+.return-buttonv {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.back-arrowv {
+  margin-right: 18px;
+}
+
+.return-textv {
+  font-family: 'Libre Franklin', sans-serif !important;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000; /* Text color */
+}
+
+.content-boxv {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.logo-boxv {
+  padding-left: 56px;
+  margin-top: 0; /* Remove space above the logo box */
+}
+
+.logo {
+  width: 93px;
+  height: 93px;
+}
+
+.text-boxv {
+  width: 711px; /* Fixed width */
+  margin: 0 auto; /* Center horizontally */
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+.text-contentv {
+  text-align: left; /* Left-align the text */
+}
+
+.main-textv {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 44px;
+  margin-bottom: 15px; /* Space between the two texts */
+}
+
+.sub-textv {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 18px;
+}
+
+.spacer {
+  height: 56px; /* Space below the second text */
+}
+
+.input-fields-boxv {
+  width: 711px; /* Fixed width to match the text box */
+  margin: 0 auto; /* Center horizontally */
+  display: flex;
+  justify-content: space-between; /* Space out the fields */
+}
+
+.input-field-boxv {
+  width: 340px; /* Same width for each field */
+}
+
+.field-labelv {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 25px;
+  color: #A1A5B0;
+  display: block;
+  margin-bottom: 19px; /* Space between label and field */
+}
+
+.input-fieldv {
+  width: 100%;
+  height: 67px; /* Updated height */
+  border-radius: 8px;
+  border: 1px solid #D9D9D9;
+  padding: 0 10px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+/* Additional styles for additional fields */
+.additional-fields-boxv {
+  width: 711px; /* Fixed width */
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 12px; /* Space from the previous fields */
+}
+
+.additional-field-boxv {
+  margin-bottom: 12px; /* Space between each field */
+}
+
+.field-label-additionalv {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 25px;
+  color: #A1A5B0;
+  display: block;
+  margin-bottom: 19px; /* Space between label and field */
+}
+
+.input-field-additionalv {
+  width: 100%;
+  height: 67px; /* Consistent height */
+  border-radius: 8px;
+  border: 1px solid #D9D9D9;
+  padding: 0 10px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+/* Spacer */
+.spacer-40 {
+  height: 40px; /* Space of 40px */
+}
+
+/* Style for the Credentials section */
+.credentials-boxv {
+  width: 711px; /* Fixed width to match the other elements */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.credentials-textv {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 30px;
+  color: #000; /* Set color for the text */
+  margin-bottom: 12px; /* Space below the text */
+}
+
+.dividerv {
+  height: 1px; /* Thin line */
+  background-color: #A1A5B0; /* Color of the divider */
+  width: 100%; /* Full width */
+}
+
+/* Style for the credential details box */
+.credential-details-boxv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Space between the boxes */
+}
+
+.credential-detailv {
+  display: flex;
+  align-items: center;
+  height: 105px; /* Fixed height */
+  border-bottom: 1px solid #A1A5B0; /* Bottom border */
+  padding: 0 10px; /* Padding inside the box */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.credential-textv {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600; /* Semibold */
+  font-size: 25px;
+  color: #8D8D8D; /* Text color */
+  width: 261px; /* Fixed width to allow wrapping */
+  text-align: center; /* Center align the text inside the box */
+  margin-right: 20px; /* Space between text and button */
+}
+
+.credential-buttonv {
+  height: 65px; /* Adjusted height */
+  width: 406px; /* Adjusted width */
+  border: 1px solid #DAEFFF; /* Border color */
+  background: none; /* No fill */
+  color: #999999; /* Text and icon color */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 20px;
+  padding: 0 118px; /* Padding inside the button */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space out the content */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.credential-iconv {
+  margin-left: 10px; /* Space between icon and text */
+}
+
+.save-continue-boxv {
+  width: 711px; /* Fixed width */
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 40px; /* Space below the last credential box */
+}
+
+.save-continue-buttonv {
+  width: 711px;
+  height: 86px;
+  border-radius: 7px;
+  border: 1px solid #EBECEF;
+  background-color: #FAFAFB;
+  color: #C4C8D1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.save-continue-buttonv:hover {
+  background-color: #EF6068;
+  color: #FFFFFF;
+  border: 1px solid #EBECEF;
+}
+
+.save-continue-buttonv:focus {
+  outline: none;
+}
+
+.spacer-36 {
+  height: 36px; /* Space with a height of 36 */
+}
+
+.veterinarian-button-box {
+  display: flex;
+  justify-content: center; /* Center the button horizontally */
+  margin-top: 10px; 
+}
+
+.veterinarian-button {
+  background: none; 
+  border: none; 
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.veterinarian-text {
+  text-decoration: underline; 
+  color: black; 
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 500; 
+  font-size: 20px; 
+}
+
+/* Common text styles for user input inside fields */
+.input-fieldv,
+.input-field-additionalv {
+  font-family: 'Roboto', sans-serif; /* Font family */
+  font-weight: 500; /* Medium weight */
+  font-size: 20px; /* Font size */
+  color: black; /* Text color */
+  border: 1px solid #B8B8B8; /* Border color */
+  border-radius: 8px; /* Border radius */
+  padding: 10px; /* Padding for better spacing */
+}
+
+/* for the choose file button */
+.button-textv {
+  color: #8D8D8D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0; /* Ensure no extra margin */
+}
+
+/* Style for the plus icon */
+.plus-icon {
+  width: 17px;
+  height: 17px;
+  fill: #8D8D8D; /* Set the icon color to match button text color */
+}
+
+/* Hide the file input */
+.hidden-file-input {
+  display: none;
+}
+
+/* Style for the custom file button */
+.custom-file-buttonv {
+  width: 316px;
+  height: 41px;
+  border: 1px solid #DAEFFF;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  margin-left: 90px;
+  border-radius: 8px; /* Add border radius if needed */
+}
+
+/* Style for the credential text */

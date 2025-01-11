@@ -1,0 +1,231 @@
+.symptom-page .account-card {
+  width: 90%;
+  padding: 16px;
+  border-radius: 2px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1200px) {
+  .symptom-page .account-card {
+    width: 60%;
+  }
+}
+
+.symptom-page .heading1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 20px; 
+  margin-bottom: -10px;
+  text-align: center; 
+}
+
+@media (min-width: 1200px) {
+  .symptom-page .heading1 {
+    font-size: 30px; 
+  }
+}
+
+.symptom-page .heading-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 12px; 
+  text-align: justify;
+  line-height: 1.2;
+  margin-bottom: 10px; 
+}
+
+@media (min-width: 1200px) {
+  .symptom-page .heading-text {
+    font-size: 17px; 
+    margin-bottom: 25px; 
+  }
+}
+
+.symptom-page .startend {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 12px; 
+}
+
+@media (min-width: 1200px) {
+  .symptom-page .startend {
+    font-size: 18px; 
+  }
+}
+
+.symptom-page .startend2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 13px; 
+}
+
+@media (min-width: 1200px) {
+  .symptom-page .startend2 {
+    font-size: 16px; 
+  }
+}
+
+.symptom-page .symptom-button {
+  width: 100%;
+  height: 44px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .symptom-page .symptom-button {
+    font-size: 18px; 
+  }
+}
+
+.symptom-page .infoBox {
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  min-height: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 1200px) {
+  .symptom-page .infoBox {
+    padding: 20px;
+  }
+}
+
+.symptom-page .progressBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.symptom-page .barContainer {
+  flex-grow: 1;
+  height: 16px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  border: 2px solid #E0E0E0;
+  position: relative;
+  margin: 0 20px;
+}
+
+.symptom-page .bar {
+  height: 100%;
+  background: linear-gradient(90deg, #EF6068, #F5CB5C, #33665A);
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+.symptom-page .questionBox {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 600px) {
+  .symptom-page .questionBox {
+    margin-top: 20px;
+  }
+}
+
+
+.symptom-page .buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 200px;
+}
+
+@media (min-width: 600px) {
+  .symptom-page .buttonContainer {
+    width: 300px;
+  }
+}
+
+.symptom-page .resultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+}
+
+.symptom-page .resultTable {
+  width: 100%;
+  border-collapse: separate; 
+}
+
+.symptom-page .tableHeader {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 15px; 
+  text-align: center; 
+}
+
+
+@media (min-width: 1200px) {
+  .symptom-page .tableHeader {
+    font-size: 19px; 
+  }
+}
+
+
+.symptom-page .questionText, 
+.symptom-page .answerText, 
+.symptom-page .suggestionText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-align: left; 
+}
+
+@media (min-width: 1200px) {
+  .symptom-page .questionText, 
+.symptom-page .answerText, 
+.symptom-page .suggestionText {
+    font-size: 16px; 
+  }
+}
+
+
+.symptom-page .resultTable th, 
+.symptom-page .resultTable td {
+  padding: 10px; 
+  background-color: transparent !important; /* Ensure no background change */
+  cursor: default !important; /* Remove the pointer cursor */
+}
+
+/* Remove alternating row highlight (even or odd rows) */
+.symptom-page .resultTable tr:nth-child(even),
+.symptom-page .resultTable tr:nth-child(odd) {
+  background-color: transparent !important; /* Remove any alternating row highlight */
+}
+
+/* Ensure no hover effect */
+.symptom-page .resultContainer .resultTable tr:hover {
+  background-color: transparent !important; /* Prevent background change on hover */
+  cursor: default !important; /* Remove pointer cursor */
+}

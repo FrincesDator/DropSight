@@ -1,0 +1,171 @@
+/*
+USED IN:
+1. Contacts - header
+*/
+.message-page .heading1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+}
+ 
+@media (min-width: 1200px) {
+  .message-page .heading1 {
+    font-size: 30px;
+  }
+}
+ 
+@media (max-width: 767px) {
+  .message-page .heading1 {
+    font-size: 12px; /* Adjust font size for mobile */
+  }
+}
+ 
+/*
+USED IN:
+1. Messages - Title on right side
+*/
+.message-page .selected-contact-name {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+ 
+@media (min-width: 1200px) {
+  .message-page .selected-contact-name  {
+    font-size: 23px;
+  }
+}
+ 
+@media (max-width: 767px) {
+  .message-page .selected-contact-name {
+    font-size: 12px; /* Adjust font size for mobile */
+  }
+}
+ 
+/*
+USED IN:
+1. Messages - no contacts found / type a message / no convo
+*/
+.message-page .simple-text3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 450;
+  line-height: 1;
+}
+ 
+@media (max-width: 767px) {
+  .message-page .simple-text3 {
+    font-size: 12px; /* Adjust font size for mobile */
+  }
+}
+ 
+/* Adjust the textfield font size */
+.message-page .txtfield-normal {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+ 
+@media (min-width: 1280px) {
+  .message-page .txtfield-normal {
+      font-size: 17px;
+  }
+}
+ 
+@media (max-width: 767px) {
+  .message-page .txtfield-normal {
+    font-size: 12px; /* Adjust font size for mobile */
+  }
+}
+ 
+.message-page .txtfield-normal2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 0.5;
+}
+ 
+@media (min-width: 1280px) {
+  .message-page .txtfield-normal2 {
+      font-size: 17px;
+  }
+}
+ 
+@media (max-width: 767px) {
+  .message-page .txtfield-normal2 {
+    font-size: 12px; /* Adjust font size for mobile */
+  }
+}
+ 
+/* Flexbox container for messages */
+.message-page .message-container {
+  display: flex; /* Use flexbox for message alignment */
+  flex-direction: column; /* Stack messages vertically */
+  width: 100%; /* Full width for the message container */
+  margin-top: 16px; /* Add margin at the top for spacing */
+}
+ 
+/* Sent message styles */
+.message-page .sent-message {
+  align-self: flex-end; /* Align sent messages to the right */
+  background-color: #e1ffc7; /* Change background color for sent messages */
+  padding: 10px; /* Padding for better appearance */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 70%; /* Limit the width */
+  margin: 5px 0; /* Spacing between messages */
+  line-height: 1;
+}
+ 
+/* Received message styles */
+.message-page .received-message {
+  align-self: flex-start; /* Align received messages to the left */
+  background-color: #d3d3d3; /* Change background color for received messages */
+  padding: 10px; /* Padding for better appearance */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 70%; /* Limit the width */
+  line-height: 1;
+}
+ 
+.message-timestamp {
+  font-size: 12px;
+  color: gray;
+  margin-top: 2px;
+  display: block; /* Ensure timestamp is on a new line */
+}
+ 
+/* Auto-reply button container */
+.message-page .auto-reply-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+ 
+/* Auto-reply button styling */
+.message-page .auto-reply-button {
+  background-color: #f0f0f0; /* Light grey background */
+  border: 1px solid #ccc; /* Border for better visibility */
+  padding: 8px 12px; /* Padding for comfort */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 14px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+ 
+.message-page .auto-reply-button:hover {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
+}
+ 
+.message-page .auto-reply-button:active {
+  background-color: #d0d0d0; /* Darker background when clicked */
+}
+ 
+/* Adjust font sizes for mobile */
+@media (max-width: 767px) {
+  .message-page .auto-reply-button {
+    font-size: 12px; /* Adjust font size for mobile */
+    padding: 6px 10px; /* Adjust padding for mobile */
+  }
+}
+ 
